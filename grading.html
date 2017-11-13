@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Education Board</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="teacherProfile.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/navBarJQuery.js"></script>
+	<script type="text/javascript" src="js/gradingJQuery.js"></script>
+	<link rel="stylesheet" type="text/css" href="app.css">
+	<link rel="stylesheet" type="text/css" href="teacherProfile.css">
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+			<a href="#" class="navbar-brand">Education Board</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div id="barContainer">
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li id = "logout"> <a href="#">Logout</a></li>
+			</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+<H1 id="teacherProfile">Grades</H1>
+<section class="containerUL">
+
+	<div id="lista">
+	<h2>Courses</h2>
+		<ol id="orderedCourseList">
+		</ol>
+	</div>
+
+	<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Students Grades</div>
+
+
+  <!-- Table -->
+	<table id="studentTable" class="tablaMaestro"  table style="width:90%">
+			<tr>
+				<th>Student Name</th>
+				<th>Student Email</th>
+				<th>Partial 1</th>
+				<th>Partial 2</th>
+				<th>Final Exam</th>
+				<th>Drop Student</th>
+			</tr>
+		</table>
+</div>
+
+
+
+
+	
+</section>
+<script type="text/javascript" src="js/navBarFunctionsJQuery.js"></script>
+</body>
+</html>

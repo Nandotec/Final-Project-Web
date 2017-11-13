@@ -1,0 +1,115 @@
+.containerUL{
+ display: flex;
+}
+
+#userProfile{
+		   flex: 1;
+
+}
+
+.thumbnail{
+	width:250px;
+}
+
+#lista{
+
+	flex: 0 0 65%;
+ margin-left: 60px;
+
+}
+
+#teacherProfile{
+	text-align:center;
+}
+
+#generalProfile{
+	text-align:center;
+	margin-top: 50px;
+}
+
+#secondPartial{
+
+margin-top: 50px;
+}
+
+#firstPartial{
+
+margin-top: 50px;
+}
+
+#final{
+
+margin-top: 50px;
+}
+
+.tablaMaestro{
+	margin-right: 50%;
+}
+
+.textoCourse{
+	text-align: center;
+}
+
+#courseMaestro{
+	margin-left:650px;
+}
+
+.panel panel-default{
+	margin-left:500px;
+}
+
+#tablaDeCursos{
+	margin-left:25%;
+	margin-right:25%;
+	margin-top: 50px;
+}
+
+.uP{
+		margin-left:40%;
+	margin-right:40%;
+	margin-top: 50px;
+}
+
+.jumbotron{
+
+	margin-top: 200px;
+}
+
+.list-group-item{
+	padding-right: 50px;
+}
+
+.teacherEntree{
+	font: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: white;
+	  border-style: dotted; 
+	  border-color: grey;
+	  margin-right: 75%;
+	  background-color: white;
+
+}
+
+.courseEntree{
+	font: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: white;
+	  border-style: dotted; 
+	  border-color: grey;
+	  margin-right: 75%;
+	  background-color: white;
+
+}
+.tablaMaestro{
+	width:100%;
+}
+
+.linkClass{
+	font-weight: bold;
+	color: lightblue;
+	text-decoration: underline;
+}
+
+

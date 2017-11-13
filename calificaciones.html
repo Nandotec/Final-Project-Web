@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Education Board</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="teacherProfile.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/navBarJQuery.js"></script>
+	<link rel="stylesheet" type="text/css" href="app.css">
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+			<a href="#" class="navbar-brand">Education Board</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div id="barContainer">
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+			<li id = "logout"> <a href="#">Logout</a></li>
+			</ul>
+			</div>
+		</div>
+	</nav>
+		<h1 id="teacherProfile"> Assign Grades</h1>
+
+	<div class="container">
+  
+  <div class="row" id="pwd-container">
+    <div class="col-md-4"></div>
+    
+    <div class="col-md-4">
+      <section class="">
+        <form method="post" action="#" role="addCourse">
+  
+          <input id="firstPartial" type="number" min="0" max = "100" class="form-control input-lg"  placeholder="First Partial Grade" required />  
+          <div class="pwstrength_viewport_progress"></div>
+          <button id= "firstPartialButton" type="button" name="go" class="btn btn-lg btn-primary btn-block">Submit</button>
+
+
+          <input id="secondPartial" type="number" min="0" max = "100" name="id" placeholder="Second Partial Grade" required class="form-control input-lg" />
+          <div class="pwstrength_viewport_progress"></div>
+          <button id= "secondPartialButton" type="button" name="go" class="btn btn-lg btn-primary btn-block">Submit</button>
+
+
+          <input id="final" type="number" min="0" max = "100" class="form-control input-lg"  placeholder="Final Grade" required />
+          <div class="pwstrength_viewport_progress"></div>
+          <button id= "finalButton" type="button" name="go" class="btn btn-lg btn-primary btn-block">Submit</button>
+
+          <div>
+            
+          </div>
+          
+        </form>
+        
+
+      </section>  
+      </div>
+
+      <script type="text/javascript" src="js/navBarFunctionsJQuery.js"></script>
+      <script type="text/javascript" src="js/calificacionesJQuery.js"></script>
+</body>
+</html>

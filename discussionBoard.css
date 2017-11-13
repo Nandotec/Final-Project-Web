@@ -1,0 +1,21 @@
+#announcments {
+	float:left; 
+	width:425px; 
+	border-style:solid;
+	border-color:red;
+}
+
+#homework {
+	float:left; 
+	width:425px;
+	border-style:solid;
+	border-color:pink;
+}
+
+#discussionBoard{
+	float:left; 
+	width:425px;
+	border-style: solid;
+	 border-color:blue;
+}
+

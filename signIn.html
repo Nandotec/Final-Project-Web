@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="signIn.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<head>
+	<title>Register</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/navBarJQuery.js"></script>
+</head>
+<style>
+	.redMarker {
+		color: red;
+	}
+</style>
+<body>
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+			<a href="#" class="navbar-brand">Education Board</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+			<li id="homeButton"> <a href="#">Home</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+			<li id="signupButton" class="active"> <a href="#">Register <i class="fa fa-user-plus"></i> </a></li>
+			<li id="loginButton"> <a href="#">Login <i class="fa fa-user"></i></a></li>
+			</ul>
+			</div>
+		</div>
+	</nav>
+<h1>Register</h1>
+<div class="container">
+  
+  <div class="row" id="pwd-container">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <section class="login-form">
+        <form method="post" action="#" role="login">
+
+           <input id="fNameInput" type="input" name="nombre" placeholder="First Name" class="form-control input-lg" required/>
+           <span id="fNameMessage" class="redMarker"></span>
+
+           <input id="lNameInput" type="input" name="apellido" placeholder="Last Name" class="form-control input-lg" required/>
+           <span id="lNameMessage" class="redMarker"></span>
+
+          <input id="emailInput" type="email" name="email" placeholder="Email" required class="form-control input-lg" required />
+          <span id="emailMessage" class="redMarker"></span>
+          
+          <input id="passwordInput" type="password" class="form-control input-lg" id="password" placeholder="Password" required/>
+          <span id="passwordMessage" class="redMarker"></span>
+
+          <div>
+				    <select id="countrySelect" class="form-group">
+				        <option>Select a country...</option>				 
+					    <option>Mexico</option>
+					    <option>Honduras</option>
+					    <option>United States</option>
+					    <option>Argentina</option>
+					    <option>Ecuador</option>
+					    <option>Poland</option>
+					    <option>Russia</option>
+					    <option>Japan</option>
+					    <option>China</option>
+					    <option>Chile</option>
+					    <option>Paraguay</option>
+					    <option>Egypt</option>
+					    <option>Peru</option>
+					    <option>Costa Rica</option>
+					    <option>Panama</option>
+			        </select>
+		   </div>
+		   <span id="countryMessage" class="redMarker"></span>
+
+          <p>
+          	<label class="radio-inline"><input type="radio" name="optradio" value="Male">Male</label>
+		  	<label class="radio-inline"><input type="radio" name="optradio" value="Female">Female</label>	
+		  </p>
+		  <span id="genderMessage" class="redMarker"></span>
+
+		  <p>
+          	<label class="radio-inline"><input type="radio" name="optradio2" value="Teacher">Teacher</label>
+		  	<label class="radio-inline"><input type="radio" name="optradio2" value="Student">Student</label>	
+		  </p>
+		  <span id="typeMessage" class="redMarker"></span>
+		  <br>
+          
+          
+          <div class="pwstrength_viewport_progress"></div>
+          
+          <input id="registerButton" type="button" name="go" class="btn btn-lg btn-primary btn-block" value="Sign in">
+          <div>
+            
+          </div>
+          
+        </form>
+      </section>  
+      </div>
+      
+      <div class="col-md-4"></div>
+      
+
+  </div>
+
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/signInJQuery.js"></script>
+ <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
